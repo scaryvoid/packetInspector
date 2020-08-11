@@ -1,0 +1,7 @@
+Translate data from bitscope-dso's recorded .csv files into a timestamped hex output.
+
+For some reason bitscope doesn't allow you to use their packet inspector on recorded data. In fact you can't even import data recorded by bitscope-dso into bitscope-logic (the program that has the packet inspector).
+
+This program is pretty basic and I haven't tested all the options (I haven't even implemented parity bits). So far I've only tested the features I've actually needed (byte order, invert logic, channel etc.) but I will add to it as I need.
+
+It might be nice to have some different format options for the output like binary, ascii etc.
